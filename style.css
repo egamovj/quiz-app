@@ -229,6 +229,8 @@ a {
   opacity: 0;
   pointer-events: none;
   transform: scale(0.9);
+  transition: 0.3s ease;
+  transition-delay: 0s;
 }
 
 .quiz-box.active {
@@ -356,7 +358,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.9);
   width: 500px;
   background: transparent;
   border: 2px solid #c40094;
@@ -367,6 +369,13 @@ a {
   align-items: center;
   opacity: 0;
   pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.result-box.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .result-box h2 {
