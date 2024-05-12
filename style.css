@@ -317,7 +317,7 @@ a {
   font-weight: 600;
   color: rgba(255, 255, 255, 0.3);
   cursor: pointer;
-  pointer-events: none;
+  /* pointer-events: none; */
   transition: 0.5s;
 }
 
