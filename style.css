@@ -201,8 +201,7 @@ a {
 
 .quiz-section {
   position: relative;
-  /* left: -50%; */
-  left: 0;
+  left: -50%;
   width: 100%;
   background: #09001d;
   display: flex;
@@ -226,6 +225,17 @@ a {
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.9);
+}
+
+.quiz-box.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+  transition: 1s ease;
+  transition-delay: 1s;
 }
 
 .quiz-box h1 {
