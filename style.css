@@ -9,6 +9,7 @@
 
 body {
   color: #fff;
+  background: #09001d;
 }
 
 a {
@@ -20,6 +21,13 @@ a {
   background: url("./images/background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+  pointer-events: auto;
+  transition: 0.3s ease;
+}
+
+.main.active {
+    filter: blur(15px);
+    pointer-events: none;
 }
 
 .header {
@@ -59,9 +67,13 @@ a {
   color: #c40094;
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+}
+
 .home {
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,4 +193,8 @@ a {
 .popup-info .btn-group .info-btn:nth-child(2):hover {
   background: #950170;
   border-color: #950170;
+}
+
+.quiz-section {
+    
 }
