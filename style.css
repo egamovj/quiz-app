@@ -10,6 +10,7 @@
 body {
   color: #fff;
   background: #09001d;
+  overflow: hidden;
 }
 
 a {
@@ -26,8 +27,8 @@ a {
 }
 
 .main.active {
-    filter: blur(15px);
-    pointer-events: none;
+  filter: blur(15px);
+  pointer-events: none;
 }
 
 .header {
@@ -68,11 +69,14 @@ a {
 }
 
 .container {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
+  width: 200%;
 }
 
 .home {
+  position: relative;
+  left: -50%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -196,5 +200,15 @@ a {
 }
 
 .quiz-section {
-    
+  position: relative;
+  left: -50%;
+  width: 100%;
+  background: seagreen;
+  transition: 0.8s ease-in-out;
+  transition-delay: 0.25s;
+  z-index: 100;
+}
+
+.quiz-section.active {
+    left: 0;
 }
