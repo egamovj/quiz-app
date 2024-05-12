@@ -304,6 +304,10 @@ a {
   border-color: #a60045;
 }
 
+.option-list .option.disabled {
+  pointer-events: none;
+}
+
 .quiz-footer {
   display: flex;
   align-items: center;
