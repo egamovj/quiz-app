@@ -57,7 +57,7 @@ let questions = [
   {
     numb: 8,
     question:
-      "img tegidagi qaysi atribut agar foydalanuvchi biron sababga ko'ra rasni ko'ra olmasa kerakli atribut rasm o'rniga matnni taqdim etadi?",
+      "img tegidagi qaysi atribut agar foydalanuvchi biron sababga ko'ra rasmni ko'ra olmasa kerakli atribut rasm o'rniga matnni taqdim etadi?",
     answer: "C. alt=''",
     options: ["A. src=''", "B. href=''", "C. alt=''", "D. data=''"],
   },

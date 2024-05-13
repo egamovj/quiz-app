@@ -125,12 +125,12 @@ function optionSelected(answer) {
 
 function questionCounter(index) {
   const questionTotal = document.querySelector(".question-total");
-  questionTotal.textContent = `${index} of ${questions.length} Questions`;
+  questionTotal.textContent = `${index} dan ${questions.length} Savollar`;
 }
 
 function headerScore() {
   const headerScoreText = document.querySelector(".header-score");
-  headerScoreText.textContent = `Score: ${userScore} / ${questions.length}`;
+  headerScoreText.textContent = `Togri javoblar: ${userScore} / ${questions.length}`;
 }
 
 function showResultBox() {
@@ -139,7 +139,7 @@ function showResultBox() {
 
   const scoreText = document.querySelector(".score-text");
 
-  scoreText.textContent = `Your Score ${userScore} out of ${questions.length}`;
+  scoreText.textContent = `Sizning natijangiz ${userScore} dan ${questions.length}`;
 
   const circularProgress = document.querySelector(".circular-progress");
   const progressValue = document.querySelector(".progress-value");
