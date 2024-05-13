@@ -1,7 +1,7 @@
 let questions = [
   {
     numb: 1,
-    question: "What does HTML stand for?",
+    question: "HTML kengaytmasi to'g'ri berilgan qatorni toping?",
     answer: "C. Hyper Text Markup Language",
     options: [
       "A. Hyper Type Multi Language",
@@ -12,7 +12,7 @@ let questions = [
   },
   {
     numb: 2,
-    question: "What does CSS stand for?",
+    question: "CSS kengaytmasi to'g'ri berilgan qatorni toping?",
     answer: "A. Cascading Style Sheet",
     options: [
       "A. Cascading Style Sheet",
@@ -23,35 +23,91 @@ let questions = [
   },
   {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "A. Hypertext Preprocessor",
+    question: "inputga malumotni kiritishni shart qilish uchun qaysi atributdan foydalanamiz?",
+    answer: "B. required",
     options: [
-      "A. Hypertext Preprocessor",
-      "B. Hometext Programming",
-      "C. Hypertext Preprogramming",
-      "D. Programming Hypertext Preprocessor",
+      "A. disabled",
+      "B. required",
+      "C. default",
+      "D. type",
     ],
   },
   {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "D. Structured Query Language",
+    question: "HTMLda havola yani link qaysi teg bilan yaratiladi?",
+    answer: "A. a",
     options: [
-        "A. Strenght Query Language",
-        "B. Stylesheet Query Language",
-        "C. Science Query Language",
-        "D. Structured Query Language",
+        "A. a",
+        "B. p",
+        "C. i",
+        "D. button",
     ],
   },
   {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "D. Extensible Markup Language",
+    question: "Qaysi teg yordamida tartibli ro'yhat yaratishimiz mumkin?",
+    answer: "C. ol",
     options: [
-        "A. Excellent Markup Language",
-        "B. Explore Markup Language",
-        "C. Extra Markup Language",
-        "D. Extensible Markup Language",
+        "A. td",
+        "B. ul",
+        "C. ol",
+        "D. tr",
+    ],
+  },
+  {
+    numb: 6,
+    question: "link, meta, style va hokazo kabi bosh teglar qaysi teg ichida joylashishi kerak?",
+    answer: "D. head",
+    options: [
+        "A. section",
+        "B. div",
+        "C. body",
+        "D. head",
+    ],
+  },
+  {
+    numb: 7,
+    question: "HTMLda qatorni bitta pastga tushirish uchun qaysi tegdan foydalanamiz?",
+    answer: "B. br",
+    options: [
+        "A. hr",
+        "B. br",
+        "C. dl",
+        "D. dt",
+    ],
+  },
+  {
+    numb: 8,
+    question: "img tegidagi qaysi atribut agar foydalanuvchi biron sababga ko'ra rasni ko'ra olmasa kerakli atribut rasm o'rniga matnni taqdim etadi?",
+    answer: "C. alt=''",
+    options: [
+        "A. src=''",
+        "B. href=''",
+        "C. alt=''",
+        "D. data=''",
+    ],
+  },
+  {
+    numb: 9,
+    question: "HTMLda text ostiga chizish uchun qaysi tegdan foydalanamiz?",
+    answer: "A. u",
+    options: [
+        "A. u",
+        "B. i",
+        "C. del",
+        "D. sup",
+    ],
+  },
+  {
+    numb: 10,
+    question: "Web-sahifada ko'p qatorli matn kiritish maydonini yaratish uchun qaysi tegdan foydalanamiz?",
+    answer: "D. textarea",
+    options: [
+        "A. div",
+        "B. input",
+        "C. placeholder",
+        "D. textarea",
     ],
   },
 ];
+
