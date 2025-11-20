@@ -125,31 +125,31 @@ let questions = [
   {
     numb: 18,
     question:
-      "CSS da fontni qalin qilib yozish uchun qaysi qiymatdan foydalaniladi ?",
-    answer: "C. font-weight",
+      "CSS'da elementga soyani qo'shish uchun qaysi xossa ishlatiladi?",
+    answer: "A. box-shadow",
     options: [
-      "A. font-variant",
-      "B. font-style",
-      "C. font-weight",
-      "D. font-size",
+      "A. box-shadow",
+      "B. text-shadow",
+      "C. border-shadow",
+      "D. shadow",
     ],
   },
   {
     numb: 19,
     question:
-      "CSS da fontni qalin qilib yozish uchun qaysi qiymatdan foydalaniladi ?",
-    answer: "C. font-weight",
+      "HTMLda matnni qalin qilish uchun qaysi semantik teg tavsiya etiladi?",
+    answer: "C. strong",
     options: [
-      "A. font-variant",
-      "B. font-style",
-      "C. font-weight",
-      "D. font-size",
+      "A. sup",
+      "B. mark",
+      "C. strong",
+      "D. em",
     ],
   },
   {
     numb: 20,
-    question: "font-weight ning qiymatlari qaysi oraliqqa to'g'ri keladi ?",
-    answer: "D. 100-900",
-    options: ["A. 1-10", "B. 1000-9000", "C. 0-900", "D. 100-900"],
+    question: "CSS'da elementning chekkalarini yumaloqlash uchun qaysi xossa ishlatiladi?",
+    answer: "B. border-radius",
+    options: ["A. border-line", "B. border-radius", "C. round-border", "D. curve-border"],
   },
 ];
